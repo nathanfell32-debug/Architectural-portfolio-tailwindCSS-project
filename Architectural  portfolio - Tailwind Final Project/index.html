@@ -4,6 +4,8 @@
         <title>Architectural Portfolio</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
          <script src="https://cdn.tailwindcss.com"></script>
          <style type="text/tailwindcss">
             @theme {
@@ -13,19 +15,65 @@
         </style>
     </head>
     <body>
-    <nav class="flex justify-between items-center p-6 border-b border-black">
-       <h1 class="text-2xl font-bold">Architectural Integrity</h1>
+    <nav class="flex items-center justify-between px-6 py-4 border-b-4 border-black">
 
-      <ul class="flex gap-8 text-lg font-semibold">
-       <li><a href="index.html" class="hover:text-brand-gold transition-colors">Home</a></li>
-       <li><a href="project.html" class="hover:text-brand-gold transition-colors">Projects</a></li>
-       <li><a href="contact.html" class="hover:text-brand-gold transition-colors">Contact</a></li>
-    </ul>
-    </nav>
-  
+  <!-- LEFT: Logo -->
+  <h1 class="text-2xl font-bold">Student Portfolio</h1>
+
+  <!-- CENTER: Nav Links (perfectly centered) -->
+  <ul class="flex-1 flex justify-center gap-8 text-lg font-semibold">
+    <li><a href="index.html" class="hover:text-brand-gold transition-colors">Home</a></li>
+    <li><a href="project.html" class="hover:text-brand-gold transition-colors">Projects</a></li>
+    <li><a href="contact.html" class="hover:text-brand-gold transition-colors">Contact</a></li>
+  </ul>
+
+  <!-- RIGHT: Search Icon + CV Button -->
+  <div class="flex items-center gap-4">
+
+    <!-- Magnifying Glass Icon -->
+    <i class="fa-solid fa-magnifying-glass text-2xl hover:text-brand-gold transition-colors"></i>
+
+    <!-- Download CV Button -->
+    <a href="#" class="bg-black text-white px-4 py-2 font-bold border-4 border-black hover:bg-brand-gold transition">Download CV</a>
+  </div>
+</nav>
+
+<section class="grid grid-cols-1 lg:grid-cols-2 border-b-4 border-black">
+
+  <!-- LEFT: Massive Heading -->
+  <div class="p-12 border-r-4 border-black flex items-center">
+    <h1 class="text-4xl lg:text-6xl font-extrabold uppercase leading-tight">
+      ARCHITECTURAL<br>
+      INTEGRITY &<br>
+      SPATIAL LOGIC.
+    </h1>
+  </div>
+
+  <!-- RIGHT: Paragraph + Buttons -->
+  <div class="p-12 flex flex-col justify-center gap-6">
+
+    <p class="text-gray-700 max-w-md">
+      A focused investigation into modular structures and technical precision
+      within high-density urban environments. Designed for clarity, authority,
+      and high-performance utility.
+    </p>
+
+    <!-- Buttons side-by-side -->
+    <div class="flex gap-4">
+      <a href="projects.html"
+         class="bg-black text-white px-6 py-3 font-bold border-4 border-black hover:bg-brand-gold transition">
+        EXPLORE PORTFOLIO
+      </a>
+
+      <a href="#philosophy"
+         class="bg-gray-300 text-black px-6 py-3 font-bold border-black hover:bg-gray-400 transition">
+        OUR PHILOSOPHY
+      </a>
+    </div>
+ </div>
+</section>
 
 <!-- Footer section -->
-
   <footer class="border-t border-black p-6 mt-12">
     <div class="flex justify-between items-center">
       <p class="font-semibold">© 2024 Architectural Integrity</p>

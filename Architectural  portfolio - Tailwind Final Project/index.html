@@ -16,31 +16,24 @@
     </head>
     <body>
     <nav class="flex items-center justify-between px-6 py-4 border-b-4 border-black">
-
   <!-- LEFT: Logo -->
   <h1 class="text-2xl font-bold">Student Portfolio</h1>
-
   <!-- CENTER: Nav Links (perfectly centered) -->
   <ul class="flex-1 flex justify-center gap-8 text-lg font-semibold">
     <li><a href="index.html" class="hover:text-brand-gold transition-colors">Home</a></li>
     <li><a href="project.html" class="hover:text-brand-gold transition-colors">Projects</a></li>
     <li><a href="contact.html" class="hover:text-brand-gold transition-colors">Contact</a></li>
   </ul>
-
-  <!-- RIGHT: Search Icon + CV Button -->
+    <!-- RIGHT: Search Icon + CV Button -->
   <div class="flex items-center gap-4">
-
     <!-- Magnifying Glass Icon -->
     <i class="fa-solid fa-magnifying-glass text-2xl hover:text-brand-gold transition-colors"></i>
-
     <!-- Download CV Button -->
     <a href="#" class="bg-black text-white px-4 py-2 font-bold border-4 border-black hover:bg-brand-gold transition">Download CV</a>
   </div>
 </nav>
-
 <section class="grid grid-cols-1 lg:grid-cols-2 border-b-4 border-black">
-
-  <!-- LEFT: Massive Heading -->
+    <!-- LEFT: Massive Heading -->
   <div class="p-12 border-r-4 border-black flex items-center">
     <h1 class="text-4xl lg:text-6xl font-extrabold uppercase leading-tight">
       ARCHITECTURAL<br>
@@ -48,23 +41,19 @@
       SPATIAL LOGIC.
     </h1>
   </div>
-
-  <!-- RIGHT: Paragraph + Buttons -->
+    <!-- RIGHT: Paragraph + Buttons -->
   <div class="p-12 flex flex-col justify-center gap-6">
-
     <p class="text-gray-700 max-w-md">
       A focused investigation into modular structures and technical precision
       within high-density urban environments. Designed for clarity, authority,
       and high-performance utility.
     </p>
-
     <!-- Buttons side-by-side -->
     <div class="flex gap-4">
       <a href="projects.html"
          class="bg-black text-white px-6 py-3 font-bold border-4 border-black hover:bg-brand-gold transition">
         EXPLORE PORTFOLIO
       </a>
-
       <a href="#philosophy"
          class="bg-gray-300 text-black px-6 py-3 font-bold border-black hover:bg-gray-400 transition">
         OUR PHILOSOPHY
@@ -72,8 +61,8 @@
     </div>
  </div>
 </section>
-
-<section class="w-full border-y-4 border-deep-charcoal bg-gray-300">
+     <!-- statistics section -->
+<section class="w-full border-y-4 border-deep-charcoal bg-gray-100">
   <div class="grid grid-cols-4 text-center">
     <!--projects completed 42+ -->
     <div class="border-r-4 border-deep-charcoal py-12">
@@ -97,12 +86,82 @@
       </div>
   </div>
   </section>
-
-<!-- Footer section -->
+     <!-- main hero section -->
+<section class="w-full border-t-4 border-deep-charcoal mt-16">
+  <div class="max-w-9xl mx-auto px-8">
+    <!-- MAIN 2-COLUMN GRID -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <!-- BOX 1 (LEFT COLUMN) -->
+      <div class="border-4 border-deep-charcoal p-8 flex flex-col justify-end min-h-[600px] max-w-[95%] bg-cover bg-center"
+     style="background-image: url('./images/concrete-wall-blackwhite.jpg');">
+  <div class="bg-black/60 p-4 space-y-2 mb-4">
+    <p class="text-sm tracking-wider font-semibold text-white m-0">PROJECT 001</p>
+    <h3 class="text-4xl font-extrabold leading-tight text-white m-0">
+      THE MONOLITH PAVILION
+    </h3>
+    <p class="text-lg text-gray-200 m-0">
+      Exploration of concrete as a fluid yet structural element in public transit hubs.
+    </p>
+  </div>
+  <button class="flex items-center gap-2 font-semibold text-lg text-white">
+    VIEW CASE STUDY
+    <span class="text-2xl">→</span>
+  </button>
+</div>
+      <!-- RIGHT COLUMN (BOXES 2, 3, 4) -->
+      <div class="flex flex-col gap-8">
+        <!-- BOX 2 (square-ish, unchanged) -->
+        <div class="border-4 border-deep-charcoal p-8 min-h-[350px] bg-gray-200">
+          <p class="text-sm tracking-wider font-semibold text-black">METHODOLOGY</p>
+          <h3 class="text-3xl font-extrabold mt-2 leading-tight">
+            BIM INTEGRATION & STRUCTURAL<br>ANALYTICS
+          </h3>
+          <p class="text-lg mt-4 text-black">
+            Every project follows a rigid grid system of 8px increments, ensuring mathematical
+            perfection from initial concept to the final blueprint.
+          </p>
+          <div class="mt-6 flex items-center gap-4">
+            <div class="flex flex-col">
+              <span class="text-sm font-semibold tracking-wide">CAD</span>
+              <div class="h-2 w-20 bg-black"></div>
+            </div>
+            <div class="flex flex-col">
+              <span class="text-sm font-semibold tracking-wide">3D MAPPING</span>
+              <div class="h-2 w-20 bg-black"></div>
+            </div>
+            <div class="flex flex-col">
+              <span class="text-sm font-semibold tracking-wide">SUSTAINABILITY</span>
+              <div class="h-2 w-20 bg-gray-400"></div>
+            </div>
+          </div>
+        </div>
+        <!-- BOX 3 + BOX 4 -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- BOX 3 (taller rectangle) -->
+          <div class="border-4 border-deep-charcoal p-8 min-h-[350px]">
+            <p class="text-sm tracking-wider font-semibold">LAB ARCHIVE</p>
+            <h3 class="text-3xl font-extrabold mt-2 leading-tight">
+              SHADOW STUDIES
+            </h3>
+          </div>
+          <!-- BOX 4 (taller rectangle) -->
+          <div class="border-4 border-deep-charcoal p-8 flex flex-col justify-between min-h-[350px] bg-black">
+            <h3 class="text-xl font-semibold leading-tight text-white">
+              JOIN THE ARCHITECTURAL DIALOGUE.
+            </h3>
+            <button class="mt-6 border-4 border-deep-charcoal px-4 py-2 font-semibold text-white">
+              SUBMIT ENQUIRY
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+       <!-- Footer section -->
   <footer class="border-t border-black p-6 mt-12">
     <div class="flex justify-between items-center">
-      <p class="font-semibold">© 2024 Architectural Integrity</p>
-
+      <p class="font-semibold">© 2026 Architectural Integrity</p>
     <div class="flex gap-6 text-lg font-semibold">
       <a href="index.html" class="hover:text-brand-gold transition-colors">Home</a>
       <a href="projects.html" class="hover:text-brand-gold transition-colors">Projects</a>

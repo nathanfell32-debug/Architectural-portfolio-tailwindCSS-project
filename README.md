@@ -17,6 +17,11 @@ Focus on form alignment. Use Flexbox to align labels and input fields.
 Recreate the information block on the right (Address, Email, Socials) using a vertical Flex
 container with consistent spacing (gap).
 
+current progress - Milestone 5: Refining the "Feel"
+Go through each page and ensure your margins and paddings are consistent.
+Make sure al buttons and links have transition-colors or transition-transform applied so
+the site feels "premium.
+
 challenges i faced - one of the biggest challenges was the current projects section- each row contained a project number, title, city and two buttons, different title lengths were causing misalignment when using flexbox so i switched to CSS grid with fixed column widths using tailwinds arbitrary values.
 
 challenges on contact page so far - using the correct amount of space for both the left side and right sided content, finding lots of dead space on right hand size, having to adjust the form field accordingly, trying to get the correct font sizes and bold/thickness. 

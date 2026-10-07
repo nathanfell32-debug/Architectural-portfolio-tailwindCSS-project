@@ -22,6 +22,8 @@ Go through each page and ensure your margins and paddings are consistent.
 Make sure al buttons and links have transition-colors or transition-transform applied so
 the site feels "premium.
 
+Current progress - PROJECT COMPLETE - having made the necessary grid height adjustments and changed all buttons to have hover effects, adjusted any lines to have bold, i am happy with my finished project, i have matched the spec and look of the mockup as best as i could. Challenges were faced in terms of getting the correct heights of certain grids and there was a lot of trial and error in keeping everything consistent - for example as i changed one thing - something else broke.
+
 challenges i faced - one of the biggest challenges was the current projects section- each row contained a project number, title, city and two buttons, different title lengths were causing misalignment when using flexbox so i switched to CSS grid with fixed column widths using tailwinds arbitrary values.
 
 challenges on contact page so far - using the correct amount of space for both the left side and right sided content, finding lots of dead space on right hand size, having to adjust the form field accordingly, trying to get the correct font sizes and bold/thickness. 
